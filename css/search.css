@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('../fonts/Bahnschrift.ttf');
+}
+
+
+@font-face {
+  font-family: "Nabla";
+  src: url("../fonts/Nabla.ttf");
+}
+
+
+.right {
+    text-align: right;
+    padding-top: 30px;
+    font-family: "Nabla";
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family: "Nabla";
+}
+
+
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin: 7px;
+    font-family: 'Bahnschrift';
+}
+
+
+
+footer {
+    padding-top: 80px;
+}
+
+
+.d2 {
+  padding: 0px 15px 0px 0px;
+}
+.d2 input, .d2 button {
+  border: none;
+  border-radius: 8px;
+}
+.d2 input {
+  width: 100%;
+  height: 60px;
+  background: white;
+  outline: 5px solid orange;
+  padding-left: 15px;
+  font-size: 25px;
+  font-family: Bahnschrift;
+}
+.d2 button {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 389px;
+  right: 10px;
+  background: #FF4500;
+  cursor: pointer;
+}
+.d2 button:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+a {
+    color: #000000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
